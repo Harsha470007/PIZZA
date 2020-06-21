@@ -3,7 +3,7 @@ pizzapy
 
 *This has been cloned from @Magicjarvis the readme below is the same as his repository..* 
 
-check out his tutorial at:https://www.youtube.com/watch?v=Nxu6GlDleqA
+check out his tutorial at: https://www.youtube.com/watch?v=Nxu6GlDleqA
 
 before going into the project, you might wanna start using Kite as your AI autocompleter : https://kite.com/
 
