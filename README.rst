@@ -7,6 +7,8 @@ check out his tutorial at:https://www.youtube.com/watch?v=Nxu6GlDleqA
 
 before going into the project, you might wanna start using Kite as your AI autocompleter : https://kite.com/
 
+also, you might wanna use Sublime Text 3 as an editor: https://www.sublimetext.com/
+
 Disclaimer
 -----------
 This is my fork of https://github.com/gamagori/pizzapi
