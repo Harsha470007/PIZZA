@@ -74,3 +74,7 @@ else:
 
 #ordering a pizza using python
 #waiting for lockdown to get over to try it out
+
+#Kid:Mom can we order a pizza?
+#Mom:No, not until you finish your CS project
+#Kid:
