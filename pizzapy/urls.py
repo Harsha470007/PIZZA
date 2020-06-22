@@ -1,5 +1,6 @@
 COUNTRY_USA = 'us'
 COUNTRY_CANADA = 'ca'
+COUNTRY_INDIA = 'in'
 
 class Urls(object):
     """URLs for doing different things to the API.
@@ -9,7 +10,7 @@ class Urls(object):
     to that information. These are handy to pass as a first argument to
     pizzapy.utils.request_[xml|json]. 
     """
-    def __init__(self, country=COUNTRY_USA):
+    def __init__(self, country=COUNTRY_INDIA):
 
         self.country = country
         self.urls = {
@@ -34,6 +35,17 @@ class Urls(object):
                 'track_by_phone' : 'https://trkweb.dominos.ca/orderstorage/GetTrackerData?Phone={phone}',
                 'validate_url' : 'https://order.dominos.ca/power/validate-order',
                 'coupon_url' : 'https://order.dominos.ca/power/store/{store_id}/coupon/{couponid}?lang={lang}',
+            },
+            COUNTRY_INDIA: {
+                'find_url' : 'https://order.dominos.com/power/store-locator?s={line1}&c={line2}&type={type}',
+                'info_url' : 'https://order.dominos.com/power/store/{store_id}/profile',
+                'menu_url' : 'https://order.dominos.com/power/store/{store_id}/menu?lang={lang}&structured=true',
+                'place_url' : 'https://order.dominos.com/power/place-order',
+                'price_url' : 'https://order.dominos.com/power/price-order',
+                'track_by_order' : 'https://trkweb.dominos.com/orderstorage/GetTrackerData?StoreID={store_id}&OrderKey={order_key}',
+                'track_by_phone' : 'https://trkweb.dominos.com/orderstorage/GetTrackerData?Phone={phone}',
+                'validate_url' : 'https://order.dominos.com/power/validate-order',
+                'coupon_url' : 'https://order.dominos.com/power/store/{store_id}/coupon/{couponid}?lang={lang}',
             }
         }
     

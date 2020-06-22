@@ -36,7 +36,7 @@ class Menu(object):
     Next time I get pizza, there is a lot of work to be done in 
     documenting this class.
     """
-    def __init__(self, data={}, country=COUNTRY_USA):
+    def __init__(self, data={}, country="in"):
         self.variants = data.get('Variants', {})
         self.menu_by_code = {}
         self.root_categories = {}

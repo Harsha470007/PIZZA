@@ -18,7 +18,7 @@ class Address(object):
         country (String): Country
     """
 
-    def __init__(self, street, city, region='', zip='', country=COUNTRY_CANADA, *args):
+    def __init__(self, street, city, region='', zip='', country="in", *args):
         self.street = street.strip()
         self.city = city.strip()
         self.region = region.strip()

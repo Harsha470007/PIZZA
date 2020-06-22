@@ -8,7 +8,7 @@ class ConsoleInput:
     """
     Used to get console input from users.
     """
-    country = "US"
+    country = "IN"
 
     @staticmethod
     def get_new_customer() -> Customer:
@@ -23,7 +23,7 @@ class ConsoleInput:
         print("- COUNTRY -")
         is_canada = input("If you are ordering from Canada please type \"YES\" now: ")
         if is_canada.strip().upper() in ["YES","Y", "YA"]:
-            ConsoleInput.country = "CA"
+            ConsoleInput.country = "IN"
 
         print("\n- NAME -")
         first_name = ConsoleInput.get_valid_input("Please type your FIRST NAME: ", ConsoleInput.validate_name)
